@@ -28,3 +28,8 @@ Storage and tracking of blood units with expiry and status.
 Staff management of donations and requests.
 
 Safe issuing of available blood units.
+
+
+<img width="790" height="1261" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/ac686d7b-b0c3-4415-8e1c-9eb5b6fbbe15" />
+
+

@@ -52,25 +52,25 @@ public class BloodBank {
         }
     }
     public void showAllDonors() {
-        System.out.println("---- Donors ----");
+        System.out.println("Donors");
         for (Donor d : donors) System.out.println(d);
     }
     public void showAllPatients() {
-        System.out.println("---- Patients ----");
+        System.out.println("Patients");
         for (Patient p : patients) System.out.println(p);
     }
     public void showAllBloodUnits() {
-        System.out.println("---- Blood Units ----");
+        System.out.println("Blood Units");
         for (BloodUnit b : bloodUnits) System.out.println(b);
     }
     public void showAllStaff() {
-        System.out.println("---- Staff ----");
+        System.out.println("Staff");
         for (Staff s : staffMembers) System.out.println(s);
     }
     //Expiry check
     public void checkExpiredUnits() {
         LocalDate today = LocalDate.now();
-        System.out.println("---- Expired Blood Units ----");
+        System.out.println("Expired Blood Units");
         for (BloodUnit unit : bloodUnits) {
             if (unit.getExpiryDate().isBefore(today) && unit.isAvailable()) {
                 System.out.println(unit + " [EXPIRED]");
